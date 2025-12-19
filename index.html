@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Escuela Online de Kempo – Sistema MTA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0d0d0d;
+      color: #f0f0f0;
+    }
+
+    header {
+      background: linear-gradient(90deg, #600, #a00);
+      padding: 30px;
+      text-align: center;
+    }
+
+    nav {
+      background: #111;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: #ffcc00;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1300px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    h2 {
+      color: #ffcc00;
+      border-bottom: 2px solid #333;
+      padding-bottom: 10px;
+    }
+
+    details {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 12px;
+      margin-bottom: 25px;
+    }
+
+    summary {
+      font-size: 20px;
+      font-weight: bold;
+      color: #ffcc00;
+      cursor: pointer;
+    }
+
+    .technique {
+      margin-top: 25px;
+      border-top: 1px solid #333;
+      padding-top: 15px;
+    }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .step {
+      background: #111;
+      padding: 10px;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .step img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 8px;
+    }
+
+    .historia-bloque {
+      margin-top: 40px;
+    }
+
+    .historia-bloque img {
+      width: 100%;
+      max-width: 800px;
+      display: block;
+      margin: 20px auto;
+      border-radius: 12px;
+    }
+
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 25px;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Escuela Online de Kempo</h1>
+  <p>Sistema Meet The Action (MTA)</p>
+</header>
+
+<nav>
+  <a href="#tecnicas">Técnicas</a>
+  <a href="#historia">Historia</a>
+</nav>
+
+<!-- ====================== TECNICAS ====================== -->
+<section id="tecnicas">
+  <h2>Técnicas Paso a Paso por Cinturón</h2>
+
+  <!-- ===== AMARILLO ===== -->
+  <details>
+    <summary>🟡 Cinturón Amarillo (24 técnicas)</summary>
+
+    <div class="technique">
+      <h3>Delayed Sword</h3>
+      <div class="steps">
+        <div class="step">
+          <img src="https://via.placeholder.com/300x200?text=Paso+1">
+          <p>Chequeo y desplazamiento</p>
+        </div>
+        <div class="step">
+          <img src="https://via.placeholder.com/300x200?text=Paso+2">
+          <p>Control del brazo</p>
+        </div>
+        <div class="step">
+          <img src="https://via.placeholder.com/300x200?text=Paso+3">
+          <p>Espada de mano al cuello</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="technique">
+      <h3>Alternating Mace</h3>
+      <div class="steps">
+        <div class="step"><img src="https://via.placeholder.com/300x200?text=Paso+1"><p>Bloqueo</p></div>
+        <div class="step"><img src="https://via.placeholder.com/300x200?text=Paso+2"><p>Martillo</p></div>
+        <div class="step"><img src="https://via.placeholder.com/300x200?text=Paso+3"><p>Control final</p></div>
+      </div>
+    </div>
+
+    <!-- DUPLICA ESTE BLOQUE HASTA COMPLETAR LAS 24 -->
+  </details>
+
+  <!-- ===== NARANJA ===== -->
+  <details>
+    <summary>🟠 Cinturón Naranja (24 técnicas)</summary>
+    <p>Estructura lista para las 24 técnicas con imágenes paso a paso.</p>
+  </details>
+
+  <!-- ===== PURPURA ===== -->
+  <details>
+    <summary>🟣 Cinturón Púrpura (24 técnicas)</summary>
+    <p>Estructura lista.</p>
+  </details>
+
+  <!-- ===== AZUL ===== -->
+  <details>
+    <summary>🔵 Cinturón Azul (24 técnicas)</summary>
+    <p>Estructura lista.</p>
+  </details>
+
+  <!-- ===== VERDE ===== -->
+  <details>
+    <summary>🟢 Cinturón Verde (24 técnicas)</summary>
+    <p>Estructura lista.</p>
+  </details>
+
+  <!-- ===== MARRÓN ===== -->
+  <details>
+    <summary>🟤 Cinturón Marrón (24 técnicas)</summary>
+    <p>Estructura lista.</p>
+  </details>
+</section>
+
+<!-- ====================== HISTORIA ====================== -->
+<section id="historia">
+  <h2>Historia y Filosofía del Kempo</h2>
+
+  <div class="historia-bloque">
+    <h3>Origen en China</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Shaolin_Monks.jpg">
+    <p>
+      El Kempo significa “Ley del Puño” y proviene de las artes marciales chinas,
+      especialmente del templo Shaolin. Incluye golpes, controles, filosofía y
+      disciplina espiritual.
+    </p>
+  </div>
+
+  <div class="historia-bloque">
+    <h3>Llegada a Japón</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Japanese_Martial_Arts.jpg">
+    <p>
+      Las técnicas chinas se fusionaron con sistemas japoneses como el Jujutsu,
+      dando origen a lo que se conocería como Kenpo.
+    </p>
+  </div>
+
+  <div class="historia-bloque">
+    <h3>Desarrollo en Hawái</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Hawaii_Honolulu.jpg">
+    <p>
+      James Mitose, William Chow y Ed Parker transformaron el Kenpo en un sistema
+      moderno, lógico y efectivo.
+    </p>
+  </div>
+
+  <div class="historia-bloque">
+    <h3>Meet The Action</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Martial_arts_training.jpg">
+    <p>
+      El sistema MTA enseña a responder al ataque en el momento exacto,
+      priorizando economía, fluidez y adaptación real.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>Escuela Online de Kempo · Plataforma Educativa</p>
+</footer>
+
+</body>
+</html>
